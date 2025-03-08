@@ -15,4 +15,5 @@ jobs:
       - name: Run API tests
         run: |
           set -e
-          postman collection run "36030548-c1b477dc-5930-4f4c-9411-58cda257a3aa" 
+          postman collection run "36030548-c1b477dc-5930-4f4c-9411-58cda257a3aa" && 
+          postman collection run "36030548-60d6c15e-7ea1-40dd-9e58-fd5322384fda"
